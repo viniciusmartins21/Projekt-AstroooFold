@@ -6,6 +6,10 @@ TagManager:
   tags:
   - Enemy
   - Asteroid
+  - DirectionalLight
+  - Projectil
+  - LaserShoot
+  - Destroyer
   layers:
   - Default
   - TransparentFX
