@@ -24,7 +24,6 @@ public class WeaponSystem : MonoBehaviour
     {
         if (Time.time >= nextFireTime)
         {
-
             Shoot(firePoint1);
             Shoot(firePoint2);
             nextFireTime = Time.time + fireRate;

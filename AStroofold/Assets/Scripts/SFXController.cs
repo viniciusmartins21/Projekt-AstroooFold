@@ -9,7 +9,7 @@ public class SFXController : MonoBehaviour
     public AudioClip startSound;
     public AudioClip engineSound;
     public AudioClip lasershoot;
-    private WeaponSystem weaponSystem;
+    public WeaponSystem weaponSystem;
 
     private AudioSource audioSource;
 

@@ -256,7 +256,7 @@ Transform:
   m_GameObject: {fileID: 151664}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 488002}
@@ -271,7 +271,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151664}
   serializedVersion: 2
-  m_Mass: 10
+  m_Mass: 1
   m_Drag: 1
   m_AngularDrag: 0
   m_UseGravity: 0
@@ -292,6 +292,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tumble: 0.5
+  maxHits: 3
 --- !u!135 &1198246809491024092
 SphereCollider:
   m_ObjectHideFlags: 0
